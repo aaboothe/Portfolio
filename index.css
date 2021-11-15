@@ -1,0 +1,32 @@
+<Style class="styles.css"/>
+body {
+    background-color: rgb(142, 142, 146);
+}
+ h1 {
+    color: rgb(172, 37, 37)
+}
+h2 {
+    color:rgb(172, 37, 37)
+}
+h3{
+    color:rgb(172, 37, 37);
+}
+<!--/* Flaired edges, by Tomas Theunissen */-->
+hr.style-seven {
+overflow: visible; /* For IE */
+height: 30px;
+border-style: solid;
+border-color: rgb(172, 37, 37);
+border-width: 1px 0 0 0;
+border-radius: 20px;
+}
+hr.style-seven:before { /* Not really supposed to work, but does */
+display: block;
+content: "";
+height: 30px;
+margin-top: -31px;
+border-style: solid;
+border-color: blackrgb(172, 37, 37);
+border-width: 0 0 1px 0;
+border-radius: 20px;
+}
